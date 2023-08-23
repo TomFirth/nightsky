@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const CronJob = require('cron').CronJob;
 
-const photo = require('./photo')
+const photo = require('./src/photo')
 
 const hostname = '127.0.0.1';
 const port = 3000;

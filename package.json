@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "photo": "node photo.js ONE=true",
-    "video": "node video.js ONE=true"
+    "photo": "node src/photo.js ONE=true",
+    "video": "node src/video.js"
   },
   "dependencies": {
     "cron": "^2.4.0",
